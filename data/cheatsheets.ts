@@ -11,6 +11,15 @@ export const cheatsheets: Tool[] = [
     recommendBy: "dvhoang2106@gmail.com",
   },
   {
+    name: "devdocs.io",
+    url: "https://devdocs.io",
+    description:
+      "DevDocs combines multiple API documentations in a fast, organized, and searchable interface.",
+    image: "/cheatsheets/devdoc.png",
+    createAt: "19 Aug 2023",
+    recommendBy: "dvhoang2106@gmail.com",
+  },
+  {
     name: "htmlcheatsheet.com",
     url: "https://htmlcheatsheet.com",
     description:
