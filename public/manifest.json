@@ -4,17 +4,12 @@
   "description": "Awesome Tools4dev",
   "icons": [
     {
-      "src": "./favicon.png",
+      "src": "./logo.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "./favicon.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "64x64 32x32 24x24 16x16"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#11cdef",
   "background_color": "#11cdef"
