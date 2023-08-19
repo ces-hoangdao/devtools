@@ -23,7 +23,7 @@ const index = () => {
               Tools4dev
             </span>{" "}
             is a “free all-in-one toolbox” solution created to ease your life by
-            preventing bookmark mess. designed by developers, for developers.
+            preventing bookmark mess. Designed by developers, for developers.
           </div>
           <div className="text-[#2A2C31] mt-10 text-xl font-[Poppins] font-light">
             * Ok, maybe you need bookmark this website just in case ;)

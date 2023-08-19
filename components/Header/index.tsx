@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -8,7 +9,12 @@ const Header = () => {
         <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 w-full">
           <nav className="flex items-center justify-between h-16 lg:h-20">
             <Link className="text-base font-medium text-black" href="/">
-              Tools4dev
+              <Image 
+                src="/logo.png"
+                alt="logo"
+                width={150}
+                height={150}
+              />
             </Link>
             <div className="hidden lg:flex lg:items-center lg:space-x-10">
               <Link className="text-base font-medium text-black" href="/">
