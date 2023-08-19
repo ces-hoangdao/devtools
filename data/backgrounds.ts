@@ -8,7 +8,7 @@ export const backgrounds: Tool[] = [
       "All of these gradients are available as CSS codes, SVG and JPG images. If you are a designer, you can use SVG or JPG image in your projects. Therefore, a developer can use all CSS/SVG/JPG (even SVG codes) version in a website or app.",
     image: "/backgrounds/codioful.png",
     createAt: "18 Aug 2023",
-    recommendBy: "Helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "cssgradient.io",
@@ -17,7 +17,7 @@ export const backgrounds: Tool[] = [
       "CSS Gradient is a happy little website and free tool that lets you create a gradient background for websites. Besides being a css gradient generator, the site is also chock-full of colorful content about gradients from technical articles to real life gradient examples like Stripe and Instagram.",
     image: "/backgrounds/cssgradient.png",
     createAt: "18 Aug 2023",
-    recommendBy: "Helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "webgradients.com",
@@ -26,7 +26,7 @@ export const backgrounds: Tool[] = [
       "A free collection of 180 linear gradients that you can use as content backdrops in any part of your website. Easy copy CSS3 crossbrowser code and use it in a moment! We've also prepared a .PNG version of each gradient. As a bonus, there are packs for Sketch & Photoshop.",
     image: "/backgrounds/webgradients.png",
     createAt: "18 Aug 2023",
-    recommendBy: "Helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "medialoot",
@@ -35,7 +35,7 @@ export const backgrounds: Tool[] = [
       "Free graphic design resources for everyone. Beautiful fonts, icons, PSDs, templates, and other resources.",
     image: "/backgrounds/medialoot.png",
     createAt: "18 Aug 2023",
-    recommendBy: "Helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "uigradients.com",
@@ -44,7 +44,7 @@ export const backgrounds: Tool[] = [
       "uiGradients is a handpicked collection of beautiful color gradients for designers and developers.",
     image: "/backgrounds/uigradients.png",
     createAt: "18 Aug 2023",
-    recommendBy: "Helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "hypercolor",
@@ -53,7 +53,7 @@ export const backgrounds: Tool[] = [
       "A collection of beautiful color gradients for your next project.",
     image: "/backgrounds/hypercolor.png",
     createAt: "18 Aug 2023",
-    recommendBy: "Helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "getwaves.io",
@@ -62,7 +62,7 @@ export const backgrounds: Tool[] = [
       "The wave generator uses an algorithm that focuses on creating harmonious visuals using one or more waves.",
     image: "/backgrounds/getwaves.png",
     createAt: "18 Aug 2023",
-    recommendBy: "Helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "svgdooles.com",
@@ -71,7 +71,7 @@ export const backgrounds: Tool[] = [
       "SVG Doodles is a hand-drawn collection of 100+ beautiful, scalable and customizable SVG illustrations.",
     image: "/backgrounds/svgdooles.png",
     createAt: "18 Aug 2023",
-    recommendBy: "Helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "blobmaker.app",
@@ -80,7 +80,7 @@ export const backgrounds: Tool[] = [
       "Blobmaker is a free generative design tool made with 💕 by z creative labs, to help you quickly create random, unique, and organic-looking SVG shapes.",
     image: "/backgrounds/blobmaker.png",
     createAt: "18 Aug 2023",
-    recommendBy: "Helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "svgbackgrounds.com",
@@ -89,6 +89,6 @@ export const backgrounds: Tool[] = [
       "SVG Backgrounds hosts a collection of customizable SVG-based repeating patterns and backgrounds for websites and blogs.",
     image: "/backgrounds/svgbackground.png",
     createAt: "18 Aug 2023",
-    recommendBy: "Helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
 ];

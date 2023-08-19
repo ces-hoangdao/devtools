@@ -7,7 +7,7 @@ export const mockups: Tool[] = [
     url: "https://mockuphone.com/",
     image: "/mockups/mockupphone.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "Mockup World",
@@ -16,7 +16,7 @@ export const mockups: Tool[] = [
     url: "https://www.mockupworld.co/",
     image: "/mockups/mockupworld.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "previewed",
@@ -25,7 +25,7 @@ export const mockups: Tool[] = [
     url: "https://previewed.app/",
     image: "/mockups/previewed.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "pixsellz",
@@ -34,7 +34,7 @@ export const mockups: Tool[] = [
     url: "https://www.pixsellz.io/",
     image: "/mockups/pixsellz.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "mockuper",
@@ -43,6 +43,6 @@ export const mockups: Tool[] = [
     url: "https://mockuper.net/",
     image: "/mockups/mockuper.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
 ];

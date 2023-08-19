@@ -8,7 +8,7 @@ export const designs: Tool[] = [
       "Dribbble is where designers gain inspiration, feedback, community, and jobs and is your best resource to discover and connect with designers worldwide.",
     image: "/designs/dribbble.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "behance.net",
@@ -17,7 +17,7 @@ export const designs: Tool[] = [
       "Behance is the world's largest creative network for showcasing and discovering creative work",
     image: "/designs/behance.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "awwwards.com",
@@ -26,7 +26,7 @@ export const designs: Tool[] = [
       "Awwwards are the Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world.",
     image: "/designs/awwwards.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "onepagelove.com",
@@ -35,7 +35,7 @@ export const designs: Tool[] = [
       "One Page Love is a One Page website design gallery showcasing the best Single Page websites, templates and resources.",
     image: "/designs/onepagelove.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "landingfolio.com",
@@ -44,6 +44,6 @@ export const designs: Tool[] = [
       "Landingfolio features the best landing page designs on the web. Browse more than 238 landing page design examples in 21 different categories.",
     image: "/designs/landingfolio.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
 ];

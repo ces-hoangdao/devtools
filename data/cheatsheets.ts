@@ -26,7 +26,7 @@ export const cheatsheets: Tool[] = [
       "HTML Cheat Sheet contains useful code examples and web developer tools, markup generators and more on a single page. Switch to other web developer sheets, like CSS or JavaScript.",
     image: "/cheatsheets/htmlcheatsheet.png",
     createAt: "18 Aug 2023",
-    recommendBy: "Helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "quickRef.me",
@@ -52,6 +52,6 @@ export const cheatsheets: Tool[] = [
     url: "https://codehouse.vercel.app/",
     image: "/cheatsheets/codehouse.png",
     createAt: "19 Aug 2023",
-    recommendBy: "Helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
 ];

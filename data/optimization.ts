@@ -7,7 +7,7 @@ export const optimization: Tool[] = [
     url: "https://www.remove.bg/",
     image: "/optimization/remove.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "TinyPNG",
@@ -15,7 +15,7 @@ export const optimization: Tool[] = [
     url: "https://tinypng.com/",
     image: "/optimization/tinypng.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "SVGOMG",
@@ -23,7 +23,7 @@ export const optimization: Tool[] = [
     url: "https://jakearchibald.github.io/svgomg/",
     image: "/optimization/svgomg.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "SVGator",
@@ -31,7 +31,7 @@ export const optimization: Tool[] = [
     url: "https://www.svgator.com/",
     image: "/optimization/svgator.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "SVG to JSX",
@@ -39,7 +39,7 @@ export const optimization: Tool[] = [
     url: "https://svg-jsx.netlify.app/",
     image: "/optimization/svgtojsx.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "imageresizer.com",
@@ -47,6 +47,6 @@ export const optimization: Tool[] = [
     url: "https://imageresizer.com/",
     image: "/optimization/imageresizer.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
 ];

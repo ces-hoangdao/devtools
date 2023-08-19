@@ -8,7 +8,7 @@ export const graphics: Tool[] = [
       "Canva is a graphic design platform that allows users to create social media graphics, presentations, posters and other visual content.",
     image: "/graphics/canva.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "photopea",
@@ -17,7 +17,7 @@ export const graphics: Tool[] = [
       "Photopea is a free online image editor, that runs without plugins. It can both read and save PSD files.",
     image: "/graphics/photopea.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "pixlr",
@@ -26,7 +26,7 @@ export const graphics: Tool[] = [
       "Discover free and premium online photo editor! Effects, filters, overlays, simple to expert tools.Open almost any image format like PSD (Photoshop), PXD, Jpeg, PNG (Transparent), webP, SVG and many more.",
     image: "/graphics/pixlr.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "vectr",
@@ -35,6 +35,6 @@ export const graphics: Tool[] = [
       "Free vector graphics software used to create graphics easily and intuitively. Vectr is a simple yet powerful cross-platform graphics editor to bring your designs into reality.",
     image: "/graphics/vectr.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
 ];

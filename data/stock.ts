@@ -8,7 +8,7 @@ export const stock: Tool[] = [
       "The internet’s source for visuals. Powered by creators everywhere.",
     image: "/stock-images/unsplash.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "pexels",
@@ -17,7 +17,7 @@ export const stock: Tool[] = [
       "The best free stock photos & videos shared by talented creators.",
     image: "/stock-images/pexels.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "pixabay",
@@ -26,7 +26,7 @@ export const stock: Tool[] = [
       "Over 1.9 million+ high quality stock images and videos shared by our talented community.",
     image: "/stock-images/pixabay.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "stocksnap",
@@ -35,7 +35,7 @@ export const stock: Tool[] = [
       "The #1 source for beautiful free photos. High quality and high resolution stock images free from all copyright.",
     image: "/stock-images/stocksnap.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "burst",
@@ -43,6 +43,6 @@ export const stock: Tool[] = [
     description: "Browse thousands of beautiful copyright-free images.",
     image: "/stock-images/burst.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
 ];

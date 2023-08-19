@@ -53,7 +53,7 @@ export const css: Tool[] = [
       "A dead simple, responsive boilerplate. Skeleton is a tool for rapid development. It empowers designers and developers to build better and easy-to-use interfaces with an intuitive 12 column grid.",
     image: "/css/getskeleton.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "get.foudation",
@@ -62,6 +62,6 @@ export const css: Tool[] = [
       "The most advanced responsive front-end framework in the world. Foundation is a family of responsive front-end frameworks that make it easy to design beautiful responsive websites, apps and emails that look amazing on any device.",
     image: "/css/getfoudation.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
 ];

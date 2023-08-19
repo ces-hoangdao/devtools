@@ -8,7 +8,7 @@ export const leans: Tool[] = [
     url: "https://www.coursera.org/",
     image: "/learns/coursera.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "udemy",
@@ -17,7 +17,7 @@ export const leans: Tool[] = [
     url: "https://www.udemy.com/",
     image: "/learns/udemy.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "edx",
@@ -26,7 +26,7 @@ export const leans: Tool[] = [
     url: "https://www.edx.org/",
     image: "/learns/edx.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "skillshare",
@@ -35,7 +35,7 @@ export const leans: Tool[] = [
     url: "https://www.skillshare.com/",
     image: "/learns/skillshare.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "codecademy",
@@ -44,7 +44,7 @@ export const leans: Tool[] = [
     url: "https://www.codecademy.com/",
     image: "/learns/codecademy.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "pluralsight",
@@ -53,7 +53,7 @@ export const leans: Tool[] = [
     url: "https://www.pluralsight.com/",
     image: "/learns/pluralsight.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "egghead",
@@ -62,7 +62,7 @@ export const leans: Tool[] = [
     url: "https://egghead.io/",
     image: "/learns/egghead.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "freecodecamp",
@@ -71,7 +71,7 @@ export const leans: Tool[] = [
     url: "https://www.freecodecamp.org/",
     image: "/learns/freecodecamp.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "frontendmasters",
@@ -80,6 +80,6 @@ export const leans: Tool[] = [
     url: "https://frontendmasters.com/",
     image: "/learns/frontendmaster.png",
     createAt: "20 Jun 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
 ];

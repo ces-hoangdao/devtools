@@ -8,7 +8,7 @@ export const illustrations: Tool[] = [
       "Open-source illustrations for any idea you can imagine and create.",
     image: "/illustrations/undraw.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "DrawKit.io",
@@ -17,7 +17,7 @@ export const illustrations: Tool[] = [
       "DrawKit is a collection of free, beautiful, customisable MIT licensed SVG illustrations in two styles, to use on your next website, app, or project.",
     image: "/illustrations/drawkit.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "Open Doodles",
@@ -25,7 +25,7 @@ export const illustrations: Tool[] = [
     description: "A Free Set of Sketchy Illustrations",
     image: "/illustrations/open-doodles.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "Blush",
@@ -34,7 +34,7 @@ export const illustrations: Tool[] = [
       "Illustrations for everyone. Mix-&-match illustrations of people with a design library for InVIsion Studio and Sketch.",
     image: "/illustrations/blush.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "Humaaans",
@@ -43,6 +43,6 @@ export const illustrations: Tool[] = [
       "Mix-&-match illustrations of people with a design library for InVIsion Studio and Sketch.",
     image: "/illustrations/humaaan.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
 ];

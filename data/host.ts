@@ -8,7 +8,7 @@ export const host: Tool[] = [
       "Netlify is a San Francisco-based cloud computing company that offers hosting and serverless backend services for web applications and static websites.",
     image: "/host/netlify.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "Vercel",
@@ -17,7 +17,7 @@ export const host: Tool[] = [
       "Vercel is a cloud platform for static sites and Serverless Functions that fits perfectly with your workflow. It enables developers to host Jamstack websites and web services that deploy instantly, scale automatically, and requires no supervision, all with no configuration.",
     image: "/host/vercel.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "Github Pages",
@@ -26,7 +26,7 @@ export const host: Tool[] = [
       "GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.",
     image: "/host/github.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "Heroku",
@@ -35,7 +35,7 @@ export const host: Tool[] = [
       "Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
     image: "/host/heroku.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "Firebase",
@@ -44,7 +44,7 @@ export const host: Tool[] = [
       "Firebase is a platform developed by Google for creating mobile and web applications. It was originally an independent company founded in 2011. In 2014, Google acquired the platform and it is now their flagship offering for app development.",
     image: "/host/firebase.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "Render",
@@ -53,7 +53,7 @@ export const host: Tool[] = [
       "Render is a unified platform to build and run all your apps and websites with free SSL, global CDN, private networks and auto deploys from Git.",
     image: "/host/render.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "Digital Ocean",
@@ -62,7 +62,7 @@ export const host: Tool[] = [
       "DigitalOcean, Inc. is an American cloud infrastructure provider headquartered in New York City with data centers worldwide. DigitalOcean provides developers cloud services that help to deploy and scale applications that run simultaneously on multiple computers.",
     image: "/host/digitalocean.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
   {
     name: "Name Cheap",
@@ -71,6 +71,6 @@ export const host: Tool[] = [
       "Namecheap, Inc. is an ICANN-accredited domain name registrar, which provides domain name registration and web hosting, based in Phoenix, Arizona, US. Namecheap is a budget hosting provider with 11 million registered users and 10 million domains.",
     image: "/host/namecheap.png",
     createAt: "14 Aug 2023",
-    recommendBy: "helios",
+    recommendBy: "dvhoang2106@gmail.com",
   },
 ];
