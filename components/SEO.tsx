@@ -24,12 +24,11 @@ function SEO() {
       <meta property="twitter:title" content={seoData.title} />
       <meta property="twitter:description" content={seoData.description} />
       <meta property="twitter:image" content={seoData.image} />
-      <meta name="robots" content="Index" />
-      <link rel="manifest" href="/manifest.json" />
+ 
       {/* Favicon */}
-      <link rel="apple-touch-icon" sizes="120x120" href="./favicon.png" />
-      <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png" />
-      <link rel="icon" type="image/png" sizes="16x16" href="./favicon.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="../public/favicon.ico" />
+      <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon.ico" />
+      <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon.ico" />
     </Head>
   );
 }

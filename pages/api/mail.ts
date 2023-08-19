@@ -2,7 +2,7 @@
 
 import type { NextApiRequest, NextApiResponse } from "next";
 const sgMail = require("@sendgrid/mail");
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+sgMail.setApiKey(process.env.SEND_GRID_API_KEY);
 
 type Data = {
   message: string;
@@ -24,7 +24,7 @@ export default async function handler(
     const data = {
       to: "dvhoang2106@gmail.com",
       from: "hoangshin98kc@gmail.com",
-      subject: `${name.toUpperCase()} sent you a message from Contact Form`,
+      subject: `${email} sent you a message from Contact Form`,
       text: `Email => ${email}`,
       html: msg.replace(/\r\n/g, "<br>"),
     };
