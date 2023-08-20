@@ -29,6 +29,15 @@ export const designs: Tool[] = [
     recommendBy: "dvhoang2106@gmail.com",
   },
   {
+    name: "codemyui.com",
+    url: "https://codemyui.com/",
+    description:
+      "Codemyui is a web design and development blog that publishes articles and tutorials about the latest web trends, techniques and new possibilities.",
+    image: "/designs/codemyui.png",
+    createAt: "20 Aug 2023",
+    recommendBy: "dvhoang2106@gmail.com"
+  },
+  {
     name: "onepagelove.com",
     url: "https://onepagelove.com/",
     description:
@@ -46,4 +55,13 @@ export const designs: Tool[] = [
     createAt: "14 Aug 2023",
     recommendBy: "dvhoang2106@gmail.com",
   },
+  {
+    name: "uidesigndaily",
+    url: "https://uidesigndaily.com/",
+    description:
+      "1000s of UI design resources made by top designers around the world. Download free Figma templates, mockups, icons, and illustrations from the biggest assets library on the Internet.",
+    image: "/designs/uidesigndaily.png",
+    createAt: "20 Aug 2023",
+    recommendBy: "Dvhoang2106@gmail.com"
+  }
 ];
