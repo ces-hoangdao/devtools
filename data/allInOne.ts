@@ -11,6 +11,15 @@ export const allInOne: Tool[] = [
     recommendBy: "dvhoang2106@gmail.com",
   },
   {
+    name: "ComboKit.net",
+    description:
+      "Combokit is a tool that very helpful to convert file SVG, HTML, JSon to other file type",
+    url: "https://combokit.net/",
+    image: "/allInOne/combokit.png",
+    createAt: "21 Aug 2023",
+    recommendBy: "Phạm Hồng Thái",
+  },
+  {
     name: "tinywow",
     description:
       "Tinywow is a free all-in-one toolbox for web developers. It contains a lot of useful tools such as JSON formatter & validator, CSS minifier, JS minifier, image compressor, etc.",
