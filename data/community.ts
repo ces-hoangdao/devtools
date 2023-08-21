@@ -28,4 +28,13 @@ export const community: Tool[] = [
     createAt: "14 Aug 2023",
     recommendBy: "dvhoang2106@gmail.com",
   },
+  {
+    name: "stackoverflow.com",
+    url: "https://stackoverflow.com/",
+    description:
+      "Stack Overflow is the largest, most trusted online community for developers to learn, share​ ​their programming ​knowledge, and build their careers.",
+    image: "/community/stackoverflow.png",
+    createAt: "21 Aug 2023",
+    recommendBy: "dvhoang2106@gmail.com"
+  }
 ];
