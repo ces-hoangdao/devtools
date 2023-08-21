@@ -11,6 +11,15 @@ export const allInOne: Tool[] = [
     recommendBy: "dvhoang2106@gmail.com",
   },
   {
+    name: "Commontools.org",
+    description:
+      "Common Tools is a free all-in-one toolbox for web developers. It contains a lot of useful tools such as JSON formatter & validator, CSS minifier, JS minifier, image compressor, etc.",
+    url: "https://commontools.org/",
+    image: "/allInOne/commontools.png",
+    createAt: "21 Aug 2023",
+    recommendBy: "Hoang Dao"
+  },
+  {
     name: "ComboKit.net",
     description:
       "Combokit is a tool that very helpful to convert file SVG, HTML, JSon to other file type",
@@ -54,5 +63,14 @@ export const allInOne: Tool[] = [
     image: "/allInOne/freetinytools.png",
     createAt: "16 Aug 2023",
     recommendBy: "dvhoang2106@gmail.com",
+  },
+  {
+    name: "Smartwebsolutions.org",
+    description:
+      "Smart Web Solutions is a free all-in-one toolbox for web developers. It contains a lot of useful tools such as JSON formatter & validator, CSS minifier, JS minifier, image compressor, etc.",
+    url: "https://www.smartwebsolutions.org/free-web-tools/",
+    image: "/allInOne/smartweb.png",
+    createAt: "16 Aug 2023",
+    recommendBy: "Hoang Helios",
   },
 ];
