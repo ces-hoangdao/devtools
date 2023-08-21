@@ -28,6 +28,24 @@ export const chromeExtensions: Tool[] = [
     recommendBy: "dvhoang2106@gmail.com",
   },
   {
+    name: "Loom",
+    description:
+      "Loom is a new kind of work communication tool that helps you get your message across through instantly shareable video.",
+    url: "https://chrome.google.com/webstore/detail/loom-for-chrome/liecbddmkiiihnedobmlmillhodjkdmb",
+    image: "/chromeExtensions/loom.png",
+    createAt: "21 Aug 2023",
+    recommendBy: "Helios"
+  },
+  {
+    name: "Lighthouse",
+    description:
+      "Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication.",
+    url: "https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk",
+    image: "/chromeExtensions/lighthouse.png",
+    createAt: "21 Aug 2023",
+    recommendBy: "Helios"
+  },
+  {
     name: "VisBug",
     description:
       "VisBug is an open source browser extension for designers that allows you to edit any webpage visually.",
