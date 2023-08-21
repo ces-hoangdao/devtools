@@ -14,6 +14,10 @@ export const categories: Category[] = [
     page: "background",
   },
   {
+    name: "Career Paths",
+    page: "career-path",
+  },
+  {
     name: "Cheatsheets",
     page: "cheat-sheets",
   },
@@ -36,10 +40,6 @@ export const categories: Category[] = [
   {
     name: "Design Idea",
     page: "design",
-  },
-  {
-    name: "Career Paths",
-    page: "career-path",
   },
   {
     name: "Fake API",
