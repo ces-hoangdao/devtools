@@ -42,6 +42,14 @@ export const optimization: Tool[] = [
     recommendBy: "dvhoang2106@gmail.com",
   },
   {
+    name: "Squoosh.app",
+    description: "Compress and compare images with different codecs, right in your browser",
+    url: "https://squoosh.app/",
+    image: "/optimization/squoosh.png",
+    createAt: "21 Aug 2023",
+    recommendBy: "Doan Le"
+  },
+  {
     name: "imageresizer.com",
     description: "Resize Images Online",
     url: "https://imageresizer.com/",
