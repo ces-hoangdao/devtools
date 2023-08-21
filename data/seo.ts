@@ -18,6 +18,13 @@ export const seoData: SEODataType = {
     "front-end",
     "dev",
     "developer",
+    "development",
+    "web",
+    "web development",
+    "web developer",
+    "css",
+    "font",
+    "images",
     "All-in-one-place",
   ],
 };

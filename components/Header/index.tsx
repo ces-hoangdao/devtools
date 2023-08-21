@@ -12,8 +12,8 @@ const Header = () => {
               <Image 
                 src="/logo.png"
                 alt="logo"
-                width={150}
-                height={150}
+                width={112}
+                height={60}
               />
             </Link>
             <div className="hidden lg:flex lg:items-center lg:space-x-10">
