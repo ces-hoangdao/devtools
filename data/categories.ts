@@ -38,6 +38,10 @@ export const categories: Category[] = [
     page: "css-framework",
   },
   {
+    name: "CSS Generator",
+    page: "css-generator",
+  },
+  {
     name: "Design Idea",
     page: "design",
   },

@@ -11,6 +11,15 @@ export const allInOne: Tool[] = [
     recommendBy: "dvhoang2106@gmail.com",
   },
   {
+    name: "phuoc.ng",
+    description:
+    "List of helpful tool, Loc(Line of Code), CSS Animation, CSS Layout, Front-end Tip, HTMl Dom",
+    url: "https://phuoc.ng/",
+    image: "/allInOne/phuocng.png",
+    createAt: "16 Aug 2023",
+    recommendBy: "Helios"
+  },
+  {
     name: "Commontools.org",
     description:
       "Common Tools is a free all-in-one toolbox for web developers. It contains a lot of useful tools such as JSON formatter & validator, CSS minifier, JS minifier, image compressor, etc.",
