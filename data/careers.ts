@@ -2,6 +2,15 @@ import { Tool } from "../types";
 
 export const careers: Tool[] = [
   {
+    name: "algochurn.com",
+    url: "https://algochurn.com/",
+    description:
+      "AlgoChurn is a platform to help you prepare for technical interviews. We have a collection of curated problems and solutions to help you ace your next interview.",
+    image: "/careers/algochurn.png",
+    createAt: "23 Aug 2023",
+    recommendBy: "Helios",
+  },
+  {
     name: "roadmap.sh",
     url: "https://roadmap.sh",
     description:
@@ -17,6 +26,15 @@ export const careers: Tool[] = [
       "HackerRank is the market-leading technical assessment and remote interview solution for hiring developers. Learn how to hire technical talent from anywhere!",
     image: "/careers/hackerrank.png",
     createAt: "19 Aug 2023",
+    recommendBy: "Helios",
+  },
+  {
+    name: "FrontEndPractice",
+    description:
+      "Take your frontend skills to the next level by recreating real websites from real companies. The perfect type of practice for developers of all skill levels. Are you up for the challenge?",
+    url: "https://www.frontendpractice.com/",
+    image: "/careers/frontendpractice.png",
+    createAt: "23 Aug 2023",
     recommendBy: "Helios",
   },
   {
@@ -38,6 +56,24 @@ export const careers: Tool[] = [
     recommendBy: "Helios",
   },
   {
+    name: "Patterns.dev",
+    url: "https://www.patterns.dev/",
+    description:
+      "Patterns.dev is a collection of curated resources to help you learn how to build applications with particular technologies and patterns.",
+    image: "/careers/patterns.png",
+    createAt: "23 Aug 2023",
+    recommendBy: "Helios",
+  },
+  {
+    name: "frontendinterviewhandbook.com",
+    url: "https://frontendinterviewhandbook.com/",
+    description:
+      "Almost complete answers to “Front-end Job Interview Questions” which you can use to interview potential candidates, test yourself or completely ignore",
+    image: "/careers/frontendinterviewhandbook.png",
+    createAt: "23 Aug 2023",
+    recommendBy: "Helios",
+  },
+  {
     name: "Interviewing.io",
     url: "https://interviewing.io/",
     description:
@@ -45,5 +81,5 @@ export const careers: Tool[] = [
     image: "/careers/interviewing.png",
     createAt: "19 Aug 2023",
     recommendBy: "Helios",
-  }
+  },
 ];
