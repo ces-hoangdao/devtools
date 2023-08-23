@@ -1,7 +1,7 @@
 // pages/api/mail.ts
 
-import type { NextApiRequest, NextApiResponse } from "next";
-const sgMail = require("@sendgrid/mail");
+import type { NextApiRequest, NextApiResponse } from 'next';
+const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.SEND_GRID_API_KEY);
 
 type Data = {
@@ -12,26 +12,26 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  if (req.method === "POST") {
+  if (req.method === 'POST') {
     const {
       name,
       email,
-      message,
+      message
     }: { name: string; email: string; message: string } = req.body;
 
     const msg = `Name: ${name}\r\n Email: ${email}\r\n Message: ${message}`;
 
     const data = {
-      to: "dvhoang2106@gmail.com",
-      from: "hoangshin98kc@gmail.com",
+      to: 'dvhoang2106@gmail.com',
+      from: 'hoangshin98kc@gmail.com',
       subject: `${email} sent you a message from Contact Form`,
       text: `Email => ${email}`,
-      html: msg.replace(/\r\n/g, "<br>"),
+      html: msg.replace(/\r\n/g, '<br>')
     };
 
     try {
       await sgMail.send(data);
-      res.status(200).json({ message: "Your message was sent successfully." });
+      res.status(200).json({ message: 'Your message was sent successfully.' });
     } catch (err) {
       res
         .status(500)

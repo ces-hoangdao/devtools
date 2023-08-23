@@ -1,8 +1,12 @@
-import React from "react";
-import { Category } from "../../types";
-import Link from "next/link";
+import React from 'react';
+import { Category } from '../../types';
+import Link from 'next/link';
 
-const index = ({ category }: { category: Category }) => {
+const index = ({
+  category
+}: {
+  category: Category;
+}) => {
   return (
     <Link
       className="lg:basis-[23%] md:basis-[32%] sm:basis-[48%] basis-full"

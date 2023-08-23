@@ -1,7 +1,7 @@
-"use client";
-import React from "react";
-import Lottie from "lottie-react";
-import animationData from "../../public/lottie/coding.json";
+'use client';
+import React from 'react';
+import Lottie from 'lottie-react';
+import animationData from '../../public/lottie/coding.json';
 const index = () => {
   return (
     <div className="flex py-8">
@@ -16,21 +16,29 @@ const index = () => {
           </h1>
           <div className="text-[#2A2C31] mt-10 text-xl font-[Poppins] font-light ">
             <div>
-              Tired of juggling countless development tools and resources?
+              Tired of juggling countless
+              development tools and resources?
             </div>
             <br />
             <span className="text-transparent bg-clip-text font-semibold text-3xl bg-gradient-to-br from-cyan-500 to-blue-500 leading-4">
               Tools4dev
-            </span>{" "}
-            is a “free all-in-one toolbox” solution created to ease your life by
-            preventing bookmark mess. Designed by developers, for developers.
+            </span>{' '}
+            is a “free all-in-one toolbox”
+            solution created to ease your life by
+            preventing bookmark mess. Designed by
+            developers, for developers.
           </div>
           <div className="text-[#2A2C31] mt-10 text-xl font-[Poppins] font-light">
-            * Ok, maybe you need bookmark this website just in case ;)
+            * Ok, maybe you need bookmark this
+            website just in case ;)
           </div>
         </div>
       </div>
-      <Lottie className="basis-2/5" animationData={animationData} loop={true} />
+      <Lottie
+        className="basis-2/5"
+        animationData={animationData}
+        loop={true}
+      />
     </div>
   );
 };

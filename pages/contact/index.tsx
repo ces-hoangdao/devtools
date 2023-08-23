@@ -1,36 +1,43 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-"use client";
-import React, { useState } from "react";
-import axios from "axios";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import Footer from "../../components/Footer";
+'use client';
+import React, { useState } from 'react';
+import axios from 'axios';
+import {
+  ToastContainer,
+  toast
+} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Footer from '../../components/Footer';
 
 const page = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (
+    e: React.FormEvent<HTMLFormElement>
+  ) => {
     e.preventDefault();
     setLoading(true);
     axios
-      .post("/api/mail", {
+      .post('/api/mail', {
         name,
         email,
-        message,
+        message
       })
       .then((res) => {
         if (res.status === 200) {
-          toast.success("Your message was sent successfully.");
-          setName("");
-          setEmail("");
-          setMessage("");
+          toast.success(
+            'Your message was sent successfully.'
+          );
+          setName('');
+          setEmail('');
+          setMessage('');
           setLoading(false);
         } else {
           setLoading(false);
-          console.log("error");
+          console.log('error');
         }
       })
       .catch((err) => {
@@ -48,12 +55,19 @@ const page = () => {
               Get in touch with me
             </h2>
             <div className="max-w-xl mx-auto mt-4 flex flex-col items-start text-base leading-relaxed text-gray-500">
-              <div>🛠️ Do you have a tool you would like to recommend?</div>
               <div>
-                🐛 Have you seen a bug? Let me know, let&lsquo;s squash the
+                🛠️ Do you have a tool you would
+                like to recommend?
+              </div>
+              <div>
+                🐛 Have you seen a bug? Let me
+                know, let&lsquo;s squash the
                 bugger!
               </div>
-              <div> 💸 Would you like to sponsor me?</div>
+              <div>
+                {' '}
+                💸 Would you like to sponsor me?
+              </div>
               <div> 👋 Wanna just say, HI!</div>
             </div>
           </div>
@@ -127,7 +141,8 @@ const page = () => {
                     />
                   </svg>
                   <p className="mt-6 text-lg font-medium leading-relaxed text-gray-900">
-                    374 Dien Bien Phu Street, Hoa Khe, Thanh Khe, Da Nang
+                    374 Dien Bien Phu Street, Hoa
+                    Khe, Thanh Khe, Da Nang
                     550000, Vietnam
                   </p>
                 </div>
@@ -140,7 +155,10 @@ const page = () => {
                   Send me a message
                 </h3>
 
-                <form onSubmit={handleSubmit} className="mt-14">
+                <form
+                  onSubmit={handleSubmit}
+                  className="mt-14"
+                >
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
                     <div>
                       <label
@@ -157,7 +175,9 @@ const page = () => {
                           value={name}
                           required
                           onChange={(e) => {
-                            setName(e.target.value);
+                            setName(
+                              e.target.value
+                            );
                           }}
                           placeholder="Enter your full name"
                           className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
@@ -180,7 +200,9 @@ const page = () => {
                           value={email}
                           required
                           onChange={(e) => {
-                            setEmail(e.target.value);
+                            setEmail(
+                              e.target.value
+                            );
                           }}
                           placeholder="Enter your full name"
                           className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
@@ -201,7 +223,9 @@ const page = () => {
                           value={message}
                           required
                           onChange={(e) => {
-                            setMessage(e.target.value);
+                            setMessage(
+                              e.target.value
+                            );
                           }}
                           placeholder="Put your message"
                           className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md resize-y focus:outline-none focus:border-blue-600 caret-blue-600"
@@ -238,7 +262,7 @@ const page = () => {
                             Sending...
                           </>
                         ) : (
-                          "Send"
+                          'Send'
                         )}
                       </button>
                     </div>

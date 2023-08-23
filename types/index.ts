@@ -4,13 +4,13 @@ export type Tool = {
   url: string;
   image: string;
   createAt: string;
-  recommendBy: string
-}
+  recommendBy: string;
+};
 
 export type Category = {
   name: string;
-  page: string
-}
+  page: string;
+};
 
 export type SEODataType = {
   title: string;
@@ -31,7 +31,6 @@ export type GreetingsType = {
   description?: string;
   resumeLink?: string;
 };
-
 
 export type GithubUserType = {
   login: string;
@@ -67,5 +66,3 @@ export type GithubUserType = {
   created_at: string;
   updated_at: string;
 };
-
-

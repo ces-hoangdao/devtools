@@ -1,26 +1,31 @@
-import React from "react";
-import { Tool } from "../types";
-import Card from "../components/Card";
-import { categories } from "../data/categories";
-import Footer from "./Footer";
-import Link from "next/link";
-import Image from "next/image";
-import Dropdown from './Dropdown'
+import React from 'react';
+import { Tool } from '../types';
+import Card from '../components/Card';
+import { categories } from '../data/categories';
+import Footer from './Footer';
+import Link from 'next/link';
+import Image from 'next/image';
+import Dropdown from './Dropdown';
 
 const Container = ({
   tools,
   title,
-  description,
+  description
 }: {
   tools: Tool[];
   title: string;
   description?: string;
 }) => {
-  const indexOfTitle = categories.findIndex((e) => e.name === title);
-  const prePage = indexOfTitle === 0 ? "#" : categories[indexOfTitle - 1].page;
+  const indexOfTitle = categories.findIndex(
+    (e) => e.name === title
+  );
+  const prePage =
+    indexOfTitle === 0
+      ? '#'
+      : categories[indexOfTitle - 1].page;
   const nextPage =
     indexOfTitle === categories.length - 1
-      ? "#"
+      ? '#'
       : categories[indexOfTitle + 1].page;
 
   return (
@@ -64,10 +69,13 @@ const Container = ({
               {/* <Dropdown/> */}
 
               <Link href={nextPage}>
-                {" "}
+                {' '}
                 <button
                   type="button"
-                  disabled={indexOfTitle === categories.length - 1}
+                  disabled={
+                    indexOfTitle ===
+                    categories.length - 1
+                  }
                   className="flex items-center justify-center text-gray-400 disabled:text-gray-400 transition-all duration-200 bg-transparent disabled:bg-gray-300 border border-gray-300 rounded w-9 h-9 hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white"
                 >
                   <svg
@@ -92,7 +100,9 @@ const Container = ({
           <div className="grid max-w-md grid-cols-1 gap-6 mx-auto my-8 lg:mt-16 lg:grid-cols-3 md:grid-cols-2 lg:max-w-full md:max-w-full">
             {tools &&
               tools.map((tool, index) => {
-                return <Card key={index} tool={tool} />;
+                return (
+                  <Card key={index} tool={tool} />
+                );
               })}
           </div>
         </div>
@@ -100,11 +110,13 @@ const Container = ({
           <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div className="max-w-2xl mx-auto text-center">
               <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
-                Built for everyone especially programmers
+                Built for everyone especially
+                programmers
               </h2>
               <p className="mt-6 text-lg text-gray-900">
-                If you know of any interesting and useful tools that haven&#39;t
-                been listed above{" "}
+                If you know of any interesting and
+                useful tools that haven&#39;t been
+                listed above{' '}
                 <Link
                   href="/contact"
                   className="ml-2 transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline"

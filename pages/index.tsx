@@ -1,20 +1,20 @@
-import type { NextPage } from "next";
-import { useRef } from "react";
-import Banner from "../components/Banner";
-import CategoryCard from "../components/CategoryCard";
-import Footer from "../components/Footer";
-import Image from "next/image";
-import { categories } from "../data/categories";
-import React from "react";
-import Lottie from "lottie-react";
-import animationData from "../public/lottie/coding.json";
+import type { NextPage } from 'next';
+import { useRef } from 'react';
+import Banner from '../components/Banner';
+import CategoryCard from '../components/CategoryCard';
+import Footer from '../components/Footer';
+import Image from 'next/image';
+import { categories } from '../data/categories';
+import React from 'react';
+import Lottie from 'lottie-react';
+import animationData from '../public/lottie/coding.json';
 
 const Home: NextPage = () => {
   const discover = useRef(null);
   const scrollToSection = (elementRef: any) => {
     window.scrollTo({
       top: elementRef.current.offsetTop,
-      behavior: "smooth",
+      behavior: 'smooth'
     });
   };
   return (
@@ -33,23 +33,30 @@ const Home: NextPage = () => {
                 </h1>
                 <div className="text-[#2A2C31] mt-10 text-xl font-[Poppins] font-light ">
                   <div>
-                    Tired of juggling countless development tools and resources?
+                    Tired of juggling countless
+                    development tools and
+                    resources?
                   </div>
                   <br />
                   <span className="text-transparent bg-clip-text font-semibold text-3xl bg-gradient-to-br from-cyan-500 to-blue-500 leading-4">
                     Tools4dev
-                  </span>{" "}
-                  is a “free all-in-one toolbox” solution created to ease your
-                  life by preventing bookmark mess. Designed by developers, for
-                  developers.
+                  </span>{' '}
+                  is a “free all-in-one toolbox”
+                  solution created to ease your
+                  life by preventing bookmark
+                  mess. Designed by developers,
+                  for developers.
                 </div>
                 <div className="text-[#2A2C31] mt-10 text-xl font-[Poppins] font-light">
-                  * Ok, maybe you need bookmark this website just in case ;)
+                  * Ok, maybe you need bookmark
+                  this website just in case ;)
                 </div>
                 <button
                   type="button"
-                  onClick={() => scrollToSection(discover)}
-                  className="text-white mt-3 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  onClick={() =>
+                    scrollToSection(discover)
+                  }
+                  className="text-white mt-3 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center "
                 >
                   Discover now
                   <svg
@@ -103,10 +110,15 @@ const Home: NextPage = () => {
                     It build for all developer
                   </h2>
                   <p className="text-xl leading-relaxed text-gray-900 mt-9">
-                    Welcome to our all-in-one developer&#39;s paradise! Whether
-                    you&#39;re a seasoned coder or just starting out on your
-                    development journey, we&#39;ve curated a comprehensive list
-                    of must-have resources that will supercharge your skills and
+                    Welcome to our all-in-one
+                    developer&#39;s paradise!
+                    Whether you&#39;re a seasoned
+                    coder or just starting out on
+                    your development journey,
+                    we&#39;ve curated a
+                    comprehensive list of
+                    must-have resources that will
+                    supercharge your skills and
                     streamline your workflow.
                   </p>
                 </div>
@@ -115,20 +127,31 @@ const Home: NextPage = () => {
           </section>
           <section className="py-10 bg-gray-100 sm:py-16 lg:py-24">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-              <div ref={discover} className="max-w-2xl mx-auto text-center">
+              <div
+                ref={discover}
+                className="max-w-2xl mx-auto text-center"
+              >
                 <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
                   Categories
                 </h2>
                 <p className="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">
-                  Discover useful tools that you may not have known.
+                  Discover useful tools that you
+                  may not have known.
                 </p>
               </div>
 
               <div className="flex flex-wrap gap-4 mt-8">
                 {categories &&
-                  categories.map((category, index) => {
-                    return <CategoryCard key={index} category={category} />;
-                  })}
+                  categories.map(
+                    (category, index) => {
+                      return (
+                        <CategoryCard
+                          key={index}
+                          category={category}
+                        />
+                      );
+                    }
+                  )}
               </div>
             </div>
           </section>
@@ -160,10 +183,14 @@ const Home: NextPage = () => {
                     Work effectively.
                   </h2>
                   <p className="mt-4 text-base leading-relaxed text-gray-600">
-                    Tools4dev is a suite of tools to enhance your web
-                    development experience and boost your productivity. Tools
-                    for professional web developers. Made to improve and ease
-                    your daily development experience.
+                    Tools4dev is a suite of tools
+                    to enhance your web
+                    development experience and
+                    boost your productivity. Tools
+                    for professional web
+                    developers. Made to improve
+                    and ease your daily
+                    development experience.
                   </p>
                 </div>
               </div>
