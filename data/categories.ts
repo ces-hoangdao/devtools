@@ -74,6 +74,11 @@ export const categories: Category[] = [
     page: "image-optimization",
   },
   {
+    name: "Jobs for dev",
+    page: "jobs",
+
+  },
+  {
     name: "Learn Resources",
     page: "learn",
   },
