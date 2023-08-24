@@ -2,10 +2,7 @@
 'use client';
 import React, { useState } from 'react';
 import axios from 'axios';
-import {
-  ToastContainer,
-  toast
-} from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from '../../components/Footer';
 
@@ -15,9 +12,7 @@ const page = () => {
   const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const handleSubmit = async (
-    e: React.FormEvent<HTMLFormElement>
-  ) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
     axios
@@ -28,9 +23,7 @@ const page = () => {
       })
       .then((res) => {
         if (res.status === 200) {
-          toast.success(
-            'Your message was sent successfully.'
-          );
+          toast.success('Your message was sent successfully.');
           setName('');
           setEmail('');
           setMessage('');
@@ -48,26 +41,16 @@ const page = () => {
 
   return (
     <>
-      <section className="py-10 bg-gray-100 sm:py-16 lg:py-24">
+      <section className="py-10 bg-gray-100 dark:bg-slate-700 sm:py-16 lg:py-24">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl lg:text-5xl">
               Get in touch with me
             </h2>
             <div className="max-w-xl mx-auto mt-4 flex flex-col items-start text-base leading-relaxed text-gray-500">
-              <div>
-                🛠️ Do you have a tool you would
-                like to recommend?
-              </div>
-              <div>
-                🐛 Have you seen a bug? Let me
-                know, let&lsquo;s squash the
-                bugger!
-              </div>
-              <div>
-                {' '}
-                💸 Would you like to sponsor me?
-              </div>
+              <div>🛠️ Do you have a tool you would like to recommend?</div>
+              <div>🐛 Have you seen a bug? Let me know, let&lsquo;s squash the bugger!</div>
+              <div> 💸 Would you like to sponsor me?</div>
               <div> 👋 Wanna just say, HI!</div>
             </div>
           </div>
@@ -90,9 +73,7 @@ const page = () => {
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-                  <p className="mt-6 text-lg font-medium text-gray-900">
-                    +84 33246 4422
-                  </p>
+                  <p className="mt-6 text-lg font-medium text-gray-900">+84 33246 4422</p>
                 </div>
               </div>
 
@@ -112,9 +93,7 @@ const page = () => {
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  <p className="mt-6 text-lg font-medium text-gray-900">
-                    dvhoang2106@gmail.com
-                  </p>
+                  <p className="mt-6 text-lg font-medium text-gray-900">dvhoang2106@gmail.com</p>
                 </div>
               </div>
 
@@ -141,9 +120,7 @@ const page = () => {
                     />
                   </svg>
                   <p className="mt-6 text-lg font-medium leading-relaxed text-gray-900">
-                    374 Dien Bien Phu Street, Hoa
-                    Khe, Thanh Khe, Da Nang
-                    550000, Vietnam
+                    374 Dien Bien Phu Street, Hoa Khe, Thanh Khe, Da Nang 550000, Vietnam
                   </p>
                 </div>
               </div>
@@ -151,20 +128,12 @@ const page = () => {
 
             <div className="mt-6 overflow-hidden bg-white rounded-xl">
               <div className="px-6 py-12 sm:p-12">
-                <h3 className="text-3xl font-semibold text-center text-gray-900">
-                  Send me a message
-                </h3>
+                <h3 className="text-3xl font-semibold text-center text-gray-900">Send me a message</h3>
 
-                <form
-                  onSubmit={handleSubmit}
-                  className="mt-14"
-                >
+                <form onSubmit={handleSubmit} className="mt-14">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
                     <div>
-                      <label
-                        htmlFor="name"
-                        className="text-base font-medium text-gray-900"
-                      >
+                      <label htmlFor="name" className="text-base font-medium text-gray-900">
                         Your name
                       </label>
                       <div className="mt-2.5 relative">
@@ -175,9 +144,7 @@ const page = () => {
                           value={name}
                           required
                           onChange={(e) => {
-                            setName(
-                              e.target.value
-                            );
+                            setName(e.target.value);
                           }}
                           placeholder="Enter your full name"
                           className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
@@ -186,10 +153,7 @@ const page = () => {
                     </div>
 
                     <div>
-                      <label
-                        htmlFor="email"
-                        className="text-base font-medium text-gray-900"
-                      >
+                      <label htmlFor="email" className="text-base font-medium text-gray-900">
                         Email address
                       </label>
                       <div className="mt-2.5 relative">
@@ -200,9 +164,7 @@ const page = () => {
                           value={email}
                           required
                           onChange={(e) => {
-                            setEmail(
-                              e.target.value
-                            );
+                            setEmail(e.target.value);
                           }}
                           placeholder="Enter your full name"
                           className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
@@ -210,10 +172,7 @@ const page = () => {
                       </div>
                     </div>
                     <div className="sm:col-span-2">
-                      <label
-                        htmlFor="message"
-                        className="text-base font-medium text-gray-900"
-                      >
+                      <label htmlFor="message" className="text-base font-medium text-gray-900">
                         Message
                       </label>
                       <div className="mt-2.5 relative">
@@ -223,9 +182,7 @@ const page = () => {
                           value={message}
                           required
                           onChange={(e) => {
-                            setMessage(
-                              e.target.value
-                            );
+                            setMessage(e.target.value);
                           }}
                           placeholder="Put your message"
                           className="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md resize-y focus:outline-none focus:border-blue-600 caret-blue-600"
@@ -237,6 +194,7 @@ const page = () => {
                     <div className="sm:col-span-2">
                       <button
                         type="submit"
+                        aria-label="submit"
                         disabled={loading}
                         className="inline-flex items-center disabled:cursor-not-allowed disabled:bg-blue-400 justify-center w-full px-4 py-4 mt-2 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700"
                       >
@@ -274,7 +232,6 @@ const page = () => {
         </div>
         <ToastContainer />
       </section>
-      <Footer />
     </>
   );
 };

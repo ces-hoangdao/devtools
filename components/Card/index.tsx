@@ -4,7 +4,7 @@ import { Tool } from '../../types';
 
 const index = ({ tool }: { tool: Tool }) => {
   return (
-    <div className="overflow-hidden bg-white rounded shadow hover:scale-105 transition ease-linear duration-300">
+    <div className="overflow-hidden bg-white dark:bg-[#2D2D2D] rounded shadow hover:scale-105 transition ease-linear duration-300">
       <div className="p-5 flex flex-col h-full">
         <div className="relative">
           <a
@@ -32,7 +32,7 @@ const index = ({ tool }: { tool: Tool }) => {
             target="_blank"
             title=""
             rel="noreferrer"
-            className="text-black"
+            className="text-black dark:text-gray-200"
           >
             {tool.name}
           </a>
@@ -40,7 +40,7 @@ const index = ({ tool }: { tool: Tool }) => {
         <div className="mt-4 text-base text-gray-600">
           Recommend by: {tool.recommendBy}
         </div>
-        <p className="mt-4 text-base text-gray-600 line-clamp-4 mb-4">
+        <p className="mt-4 text-base text-gray-600 dark:text-gray-200 line-clamp-4 mb-4">
           {tool.description}
         </p>
         <a
@@ -49,7 +49,7 @@ const index = ({ tool }: { tool: Tool }) => {
           rel="noreferrer"
           className="inline-flex mt-auto items-center w-32 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 :bg-blue-600"
         >
-          dark Read more
+          Read more
           <svg
             className="w-3.5 h-3.5 ml-2"
             aria-hidden="true"

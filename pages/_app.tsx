@@ -5,32 +5,23 @@ import { ThemeProvider as NextThemesProvider } from 'next-themes';
 import type { ThemeProviderProps } from 'next-themes/dist/types';
 import '../styles/globals.css';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
 import SEO from '../components/SEO';
+import Footer from '../components/Footer';
 
-function MyApp({
-  Component,
-  pageProps
-}: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider>
+    <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <Analytics />
       <SEO />
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </ThemeProvider>
   );
 }
 
 export default MyApp;
 
-export function ThemeProvider({
-  children,
-  ...props
-}: ThemeProviderProps) {
-  return (
-    <NextThemesProvider {...props}>
-      {children}
-    </NextThemesProvider>
-  );
+export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
+  return <NextThemesProvider {...props}>{children}</NextThemesProvider>;
 }
