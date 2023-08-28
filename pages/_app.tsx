@@ -1,5 +1,4 @@
 import type { AppProps } from 'next/app';
-import { Analytics } from '@vercel/analytics/react';
 import * as React from 'react';
 import { ThemeProvider as NextThemesProvider } from 'next-themes';
 import type { ThemeProviderProps } from 'next-themes/dist/types';
@@ -11,8 +10,7 @@ import Footer from '../components/Footer';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-      <Analytics />
-      <SEO />
+      <SEO/>
       <Header />
       <Component {...pageProps} />
       <Footer />

@@ -20,6 +20,6 @@
     "**/*.ts",
     "**/*.tsx",
     "components/Header/index.js"
-  ],
+, "pages/gtag.js"  ],
   "exclude": ["node_modules"]
 }
