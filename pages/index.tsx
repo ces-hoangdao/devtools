@@ -7,6 +7,8 @@ import React from 'react';
 import Lottie from 'lottie-react';
 import animationData from '../public/lottie/coding.json';
 import { Section } from '../components/Section';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Home: NextPage = () => {
   const discover = useRef(null);
@@ -90,6 +92,19 @@ const Home: NextPage = () => {
           </div>
         </section>
         <Banner />
+        <Link
+          href="https://www.producthunt.com/posts/tools4dev?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-tools4dev"
+          target="_blank"
+          rel="noreferrer"
+          className='flex justify-center'
+        >
+          <Image
+            src="/featureddark.svg"
+            alt="Tools4dev - provide&#0032;helpful&#0032;link&#0032; | Product Hunt"
+            width="250"
+            height="54"
+          />
+        </Link>
         <Section />
       </div>
     </main>
