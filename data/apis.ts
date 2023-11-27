@@ -2,6 +2,14 @@ import { Tool } from '../types';
 
 export const apis: Tool[] = [
   {
+    name: 'FreeApis',
+    url: 'https://freeapis.com/',
+    description: 'A collection of free APIs for developers, designers, and content creators.',
+    image: '/apis/freeApis.png',
+    createAt: '27 Nov 2023',
+    recommendBy: 'dvhoang2106@gmail.com'
+  },
+  {
     name: 'jsonplaceholder',
     url: 'https://jsonplaceholder.typicode.com/',
     description: 'Fake Online REST API for Testing and Prototyping',
@@ -21,8 +29,7 @@ export const apis: Tool[] = [
   {
     name: 'randomuser.me',
     url: 'https://randomuser.me/',
-    description:
-      'RandomUser is an API that provides you with a randomly generated user avatar and profile data.',
+    description: 'RandomUser is an API that provides you with a randomly generated user avatar and profile data.',
     image: '/apis/randomuser.png',
     createAt: '14 Aug 2023',
     recommendBy: 'dvhoang2106@gmail.com'
@@ -48,8 +55,7 @@ export const apis: Tool[] = [
   {
     name: 'pokeapi.co',
     url: 'https://pokeapi.co/',
-    description:
-      "All the Pokémon data you'll ever need in one place, easily accessible through a modern RESTful API.",
+    description: "All the Pokémon data you'll ever need in one place, easily accessible through a modern RESTful API.",
     image: '/apis/pokeapi.png',
     createAt: '14 Aug 2023',
     recommendBy: 'dvhoang2106@gmail.com'
