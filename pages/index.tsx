@@ -69,9 +69,7 @@ const Home: NextPage = () => {
               </button>
             </div>
           </div>
-          <Lottie className="col-span-2" animationData={animationData} loop={true} />
         </div>
-
         <section className="py-10 bg-gray-100 dark:bg-slate-800 sm:py-16 lg:py-24">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div ref={discover} className="max-w-2xl mx-auto text-center">
