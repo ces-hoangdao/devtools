@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                 <div>Tired of juggling countless development tools and resources?</div>
                 <br />
                 <span className="text-transparent bg-clip-text font-semibold text-3xl bg-gradient-to-br from-cyan-500 to-blue-500 leading-4">
-                  Tools4dev
+                  Tools4dev111
                 </span>{' '}
                 is a “free all-in-one toolbox” solution created to ease your life by preventing bookmark mess. Designed
                 by developers, for developers.
@@ -69,9 +69,7 @@ const Home: NextPage = () => {
               </button>
             </div>
           </div>
-          <Lottie className="col-span-2" animationData={animationData} loop={true} />
         </div>
-
         <section className="py-10 bg-gray-100 dark:bg-slate-800 sm:py-16 lg:py-24">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div ref={discover} className="max-w-2xl mx-auto text-center">
